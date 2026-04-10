@@ -83,6 +83,7 @@
 
         Console.WriteLine("\n");
 
+        // displays the entire english alphabet
         for (int i = 0; i < alphabet.Length; i++)
         {
             Console.Write($"{alphabet[i]} ");
@@ -117,6 +118,7 @@
             incorrectGuesses++;
         }
 
+        
         solved = true;
 
         for (int i = 0; i < guessedLetters.GetLength(0); i++)
